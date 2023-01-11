@@ -65,3 +65,11 @@ We can Optimize the code by using The Barnes-Hut Algorithm to move from O(n^2) t
 
 Here is more content about Barnes-Hut Algorithm if you are interested.
 http://arborjs.org/docs/barnes-hut
+
+
+![2022-12-24 (117)](https://user-images.githubusercontent.com/116048487/211741568-91ca24f4-954e-4736-88e2-8185f6160a25.png)
+![2022-12-24 (126)](https://user-images.githubusercontent.com/116048487/211741590-ab829a01-2151-4ec9-8184-5596766b0001.png)
+![2022-12-24 (129)](https://user-images.githubusercontent.com/116048487/211741598-34a29e92-9e33-4c3e-921e-b5f3a93f6b68.png)
+![2022-12-24 (131)](https://user-images.githubusercontent.com/116048487/211741612-194c3dec-0283-4a1a-b720-ad93eecc7195.png)
+![2022-12-24 (134)](https://user-images.githubusercontent.com/116048487/211741630-80960784-42bf-41c0-afd8-1dc337f7f2cc.png)
+![2022-12-24 (135)](https://user-images.githubusercontent.com/116048487/211741643-25678c5d-7ed8-492b-a0f4-7eec6e426bce.png)
