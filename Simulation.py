@@ -86,21 +86,23 @@ def simulate(bodies, formula):
         screen.blit(text, (10, 10))
         
         # Show number of particles
-        text = font.render(f"Particles: {count}", True, (0,0,0))
+        text = font.render(f"Particles: {count}", True, "white")
         screen.blit(text, (10,40))
-        
-        # Show dt
-        text = font.render(f"dt: {dt}", True, (0,0,0))
+
+        # Show G
+        text = font.render(f"G: {G}", True, "white")
         screen.blit(text, (10,70))
         
-        # Show method
-        text = font.render(f"Method: {method}", True, (0,0,0))
+        # Show dt
+        text = font.render(f"dt: {dt}", True, "white")
         screen.blit(text, (10,100))
+        
+        # Show method
+        text = font.render(f"Method: {method}", True, "white")
+        screen.blit(text, (10,130))
         
         # Update the display
         pygame.display.flip()
-
-
 
 G = 0.067
 dt = 1
@@ -125,7 +127,6 @@ for i in range(count):
 
     # Add the new body to the list of bodies
     bodies.append(new_body)
-
 
 # usage:
 simulate(bodies, method)
