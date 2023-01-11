@@ -130,10 +130,3 @@ for i in range(count):
 
 # usage:
 simulate(bodies, method)
-
-
-
-
-
-
-        
