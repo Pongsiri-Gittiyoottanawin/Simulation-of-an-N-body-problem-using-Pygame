@@ -15,18 +15,11 @@ class Body:
         self.ay = 0
     
     def update_position(self, formula):
-        if formula == 1:
-            self.vx += self.ax * dt
-            self.vy += self.ay * dt
-            self.x += self.vx * dt
-            self.y += self.vy * dt
+        self.vx += self.ax * dt
+        self.vy += self.ay * dt
+        self.x += self.vx * dt
+        self.y += self.vy * dt
             
-        elif formula == 2:
-            self.vx += self.ax * dt
-            self.vy += self.ay * dt
-            self.x += self.vx * dt
-            self.y += self.vy * dt
-
     def update_force(self, bodies, formula):
         self.ax = 0.0
         self.ay = 0.0
