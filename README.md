@@ -42,7 +42,7 @@ You also can set the initial body that consists of these parameters:
 
 `x` and `y`: The initial position in the x-axis and y-axis
 
-`vx` and `vy : The initial velocity in the x-axis and y-axis
+`vx` and `vy` : The initial velocity in the x-axis and y-axis
 
 `mass`: The mass of the body
 
