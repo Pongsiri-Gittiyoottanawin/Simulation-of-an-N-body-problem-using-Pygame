@@ -38,6 +38,18 @@ The user can customize the following parameters:
 
 `method` : two different formulas for the gravitational force can be chosen.
 
+You also can set the initial body that consists of these parameters:
+
+`x` and `y`: The initial position in the x-axis and y-axis
+
+`vx` and `vy : The initial velocity in the x-axis and y-axis
+
+`mass`: The mass of the body
+
+`color`: The color of the body
+
+note: The size of the body is based on mass but you also can set it by adding the argument name radius.
+
 ## Information displayed
 
 - FPS: The number of frames per second that the simulation is running at
